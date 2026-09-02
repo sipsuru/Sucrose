@@ -290,6 +290,10 @@ namespace Sucrose.Reportdog.Helper
                                 SSSHF.Delete(Path);
                             }
                         }
+                        else
+                        {
+                            SSSHF.Delete(Path);
+                        }
                     }
                 }
             }
